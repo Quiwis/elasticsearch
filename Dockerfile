@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/java:openjdk-7-jre
+FROM java:7
 
 ENV VERSION 2.4.1
 ENV ES_PKG_NAME elasticsearch-$VERSION
